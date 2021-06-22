@@ -1,0 +1,17 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "bloq"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "max-params": ["error", { "max": 5 }],
+    "no-console": 0,
+    "valid-jsdoc": ["warn", { "requireReturn": false }],
+    "jsdoc/require-jsdoc": "off"
+  }
+}
